@@ -13,15 +13,16 @@
     <SurfaceView
         android:id="@+id/surface_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="400dp" />
+
     <TextView
         android:id="@+id/text_view"
-        android:text="No Text"
-        android:layout_alignParentBottom="true"
-        android:textColor="@android:color/white"
-        android:textSize="20sp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="119dp"
+        android:layout_alignParentBottom="true"
+        android:text="No Text"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
         tools:ignore="HardcodedText" />
 
 </RelativeLayout>
